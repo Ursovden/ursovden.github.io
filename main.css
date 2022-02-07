@@ -1,0 +1,44 @@
+body {
+    background: rgb(53, 53, 53);
+    color: white;
+    font-size: 13px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 0 4px;
+    padding-left: 10px;
+    justify-content: flex-end;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.buttomCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttomCircle:hover {
+    background-color: rgb(90, 92, 92);
+}
+
+.img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
